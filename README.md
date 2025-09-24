@@ -25,6 +25,10 @@ Commit:
                 (2) 描述這次改了什麼 
                 (3) 使用現在式動詞 
 
+    ex :  我增加一些東西，它記得很清楚。
+          1 file changed, 21 insertions(+), 1 deletion(-)  
+          --> 1 個檔案發生變化，新增了 21 行內容 刪除了 1 行內容
+        
 更新到GitHub:
             1. git add . 
             2. git commit -m "Install commit: add README"
