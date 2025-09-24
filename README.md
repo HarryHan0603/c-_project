@@ -81,7 +81,7 @@ Pull:
 
 Branch: 
         main 分支:　穩定的主要版本
-        feature 分支: 開發新功能
+        feature 分支: 開發新功能  (類似自己儲存遊戲進度，不會影響主分支)
         bugfix 分支:　修復錯誤
 
         指令: 
