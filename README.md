@@ -29,6 +29,13 @@ Commit:
     ex :  我增加一些東西，它記得很清楚。
           1 file changed, 21 insertions(+), 1 deletion(-)  
           --> 1 個檔案發生變化，新增了 21 行內容 刪除了 1 行內容
+
+比較: 
+        在更改的地方，儲存起來與之前的數字比較
+        指令: 
+             ex:  
+                 git log --oneline      fac2b59 原本數字，  a3c872e 更改後數字
+                 git diff fac2b59 --README.md
         
 更新到GitHub:
             1. git add . 
