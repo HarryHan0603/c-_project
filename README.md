@@ -39,7 +39,7 @@ Commit:
         
 更新到GitHub:
             1. git add . 
-            2. git commit -m "Install commit: add README"
+            2. git commit -m "Install commit: add README(看你想打什麼內容)"
             3. git branch -M main 
             4. git push -u origin main
 Connect:
