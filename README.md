@@ -1,4 +1,4 @@
-10 元
+120 元
 重新學習C++
 
 重要愛念: 
@@ -36,12 +36,13 @@ Commit:
              ex:  
                  git log --oneline      fac2b59 原本數字，  a3c872e 更改後數字
                  git diff fac2b59 --README.md
-        
-更新到GitHub:
-            1. git add . 
-            2. git commit -m "Install commit: add README(看你想打什麼內容)"
-            3. git branch -M main 
-            4. git push -u origin main
+
+還原:
+        萬一指令錯誤，想回到原本沒有錯誤的程式碼
+
+        指令:       
+                git checkout fac2b59 -- README.md
+            
 Connect:
          步驟一 : 新增遠端倉庫
             git remote add origin https://github.com/HarryHan0603/c-_project.git
@@ -115,6 +116,12 @@ Branch:
 
         推送更新到GitHub: 
                 git push origin main
+
+更新到GitHub:
+            1. git add . 
+            2. git commit -m "Install commit: add README"
+            3. git branch -M main 
+            4. git push -u origin main
 
 建立新的GitHub:
             1. git init 
