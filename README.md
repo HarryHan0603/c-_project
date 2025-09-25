@@ -119,9 +119,8 @@ Branch:
 
 更新到GitHub:
             1. git add . 
-            2. git commit -m "Install commit: add README"
-            3. git branch -M main 
-            4. git push -u origin main
+            2. git commit -m "Install commit: add README" 
+            3. git push 
 
 建立新的GitHub:
             1. git init 
